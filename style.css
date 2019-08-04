@@ -1,0 +1,53 @@
+.svgOutside{
+    height: 300px;
+    border: 2px;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+}
+.circleOutside{
+    fill: #FFFFFF;
+    stroke: #FFC6C5;
+    stroke-width:4;
+    stroke-dasharray: 0 300;
+    
+}
+.circleInside{
+    fill: #FE7674;
+                
+}
+.dick{
+    height: 18rem;
+    width: 18rem;
+    background-image: url("/img/Wes_Hutchinson.jpg");
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+.dick-circle{
+    height: 3rem;
+    width: 3rem;
+    background-color:white;
+    border-radius: 50%;
+}
+.bar{
+    height: 5px;
+    background-color: white;
+    border-radius: 1% / 50%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, .5)
+}
+.bar::after{
+    content:'';
+    display: block;
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(#FFE7E3,#F1644C 80%,#EE553B );
+    background: -webkit-linear-gradient(left,#FFE7E3,#F1644C 80%,#EE553B );
+    background: -o-linear-gradient(right,#FFE7E3,#F1644C 80%,#EE553B );
+    background: -moz-linear-gradient(right,#FFE7E3,#F1644C 80%,#EE553B );
+    background: linear-gradient(to right,#FFE7E3,#F1644C 80%,#EE553B );
+}
+.play-button{
+    border: 3px;
+    border-radius: 50%;
+    padding: 5%;
+}
