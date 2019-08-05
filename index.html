@@ -37,7 +37,7 @@
                 </div>
                 <div class="border rounded-circle p-3 shadow play-button">
                     <img v-if="MusicIsPaused==true" v-on:click="PlayOrPaused" class="ml-3 " src="/img/play-button (1).png" alt="">
-                    <img v-if="MusicIsPaused==false" v-on:click="PlayOrPaused" class="m-2" src="/img/pause-button.png" alt="">
+                    <img v-if="MusicIsPaused==false" v-on:click="PlayOrPaused" class="ml-2 mr-2  " src="/img/pause-button.png" alt="">
                 </div>
                 <div>
                     <img src="/img/btn_next-track-1@2x.png" alt="">
@@ -48,6 +48,8 @@
             </div>
         </div>
     </div>
+    <div class="text-center">
+        你好，我是<a href="https://challenge.thef2e.com/user/2454">長庚</a>，這是六角學院2019前端&UI修練精神時光屋活動，第三週前端投稿作品，採用的設計稿是<a href="https://challenge.thef2e.com/user/2232?schedule=3011#works-3011">UI設計師何田的作品</a></div>
     <audio id="Music">
         <source = src="/music/Winds_of_Spring.mp3" type="audio/mp3">
     </audio>

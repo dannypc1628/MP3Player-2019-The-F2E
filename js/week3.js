@@ -4,7 +4,8 @@ var MyAudio = document.getElementById("Music");
 var app = new Vue({
     el:"#player",
     data:{
-        MusicIsPaused:true
+        MusicIsPaused:true,
+        MusicCurrentTime:"0:0"
     },
     methods:{
         PlayOrPaused:function(){
@@ -19,7 +20,6 @@ var app = new Vue({
                 MyAudio.play(); 
             }
         }
-    },
-    conputed:{}
-
+    }
+    
 });
