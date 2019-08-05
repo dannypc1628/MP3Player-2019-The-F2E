@@ -18,7 +18,7 @@
 .dick{
     height: 18rem;
     width: 18rem;
-    background-image: url("/img/Wes_Hutchinson.jpg");
+    background-image: url("./img/Wes_Hutchinson.jpg");
     background-position: center;
     background-size: contain;
     border-radius: 50%;
