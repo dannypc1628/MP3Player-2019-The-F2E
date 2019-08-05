@@ -46,12 +46,14 @@
     background: -moz-linear-gradient(right,#FFE7E3,#F1644C 80%,#EE553B );
     background: linear-gradient(to right,#FFE7E3,#F1644C 80%,#EE553B );
 }
-.play-button:hover{
-    border-color: aqua;
-    border: 2px solid;
+.play-button{
+    
+    border: 1px solid gainsboro;
+    border-radius: 50%;
 }
 
 .play-button:hover{
-    border-color: aqua;
-    border: 8px;
+    
+    border: 1px solid #F1644C;
+    border-radius: 50%;
 }
