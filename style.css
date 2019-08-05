@@ -46,8 +46,12 @@
     background: -moz-linear-gradient(right,#FFE7E3,#F1644C 80%,#EE553B );
     background: linear-gradient(to right,#FFE7E3,#F1644C 80%,#EE553B );
 }
-.play-button{
-    border: 3px;
-    border-radius: 50%;
-    padding: 5%;
+.play-button:hover{
+    border-color: aqua;
+    border: 2px solid;
+}
+
+.play-button:hover{
+    border-color: aqua;
+    border: 8px;
 }
